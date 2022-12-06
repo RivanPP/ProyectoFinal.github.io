@@ -10,17 +10,16 @@ const About = () =>{
                             <img src="/assets/about1.jpg" alt="About" className="w-75 mt-5"/>
                         </div>                        
                         <div className="col-md-6">
-                            <h3 className="fs-5 mb-0">About Us</h3>
-                            <h1 className="display-6 mb-2">Who <b>We</b> Are</h1>
+                            <h3 className="fs-5 mb-0">sobre nosotros</h3>
+                            <h1 className="display-6 mb-2">Quienes somos</h1>
                             <hr className="w-50"/>
-                            <p className="lead mb-4">Lorem, ipsum dolor sit amet consectetur 
-                            adipisicing elit. Animi odit dolorum, necessitatibus dignissimos
-                             reprehenderit dicta id rem. Exercitationem soluta ipsam necessitatibus
-                              aliquid totam recusandae a alias optio eum quas, corrupti ducimus 
-                              cupiditate aut adipisci eos tempora quam similique nemo quo, vel 
-                              dicta blanditiis. Esse magnam laudantium officiis et sed quis?</p>
-                            <button className="btn btn-primary rounded-pill px-4 py-2">Get Started</button>
-                            <button className="btn btn-outline-primary rounded-pill px-4 py-2 ms-2">Contact Us</button>
+                            <p className="lead mb-4">Utilizamos un conjunto de datos patentado 
+                            para comprender qué mercados de artistas se están acelerando rápidamente y 
+                            tienen las tasas históricas de apreciación de precios más atractivas. 
+                            Como miembro, puede acceder a esta base de datos de forma gratuita 
+                            para realizar su propia investigación.</p>
+                            <button className="btn btn-primary rounded-pill px-4 py-2">Empeza</button>
+                            <button className="btn btn-outline-primary rounded-pill px-4 py-2 ms-2">Contactenos</button>
                         </div>
                     </div>
                 </div>

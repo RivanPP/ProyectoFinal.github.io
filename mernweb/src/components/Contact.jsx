@@ -61,9 +61,9 @@ const Contact = () => {
         <div className="container my-5 py-5">
           <div className="row mb-5">
             <div className="col-12">
-              <h3 className="fs-5 text-center mb-0">Contact Us</h3>
+              <h3 className="fs-5 text-center mb-0">Contactenos</h3>
               <h1 className="display-6 text-center mb-4">
-                Have Some <b>Question?</b>
+                ¿Tiene alguna pregunta?
               </h1>
               <hr className="w-25 mx-auto" />
             </div>
@@ -76,7 +76,7 @@ const Contact = () => {
               <form onSubmit={handleSubmit} method="POST">
                 <div className="mb-3">
                   <label htmlFor="name" className="form-label">
-                    Your Name
+                    Tu Nombre
                   </label>
                   <input
                     type="text"
@@ -90,7 +90,7 @@ const Contact = () => {
                 </div>
                 <div className="mb-3">
                   <label htmlFor="exampleFormControlInput1" className="form-label">
-                    Email address
+                    Email 
                   </label>
                   <input
                     type="email"
@@ -104,7 +104,7 @@ const Contact = () => {
                 </div>
                 <div className="mb-3">
                   <label htmlFor="exampleFormControlTextarea1" className="form-label">
-                    Your Message
+                    Tu mensaje
                   </label>
                   <textarea
                     className="form-control"
@@ -115,7 +115,7 @@ const Contact = () => {
                     onChange={handleChange}
                   ></textarea>
                 </div>
-                <button type="submit" className="btn btn-outline-primary rounded-pill px-4">Send Message <i className="fa fa-paper-plane ms-2"></i></button>
+                <button type="submit" className="btn btn-outline-primary rounded-pill px-4">Enviar <i className="fa fa-paper-plane ms-2"></i></button>
               </form>
             </div>
           </div>

@@ -14,16 +14,16 @@ import { NavLink } from "react-router-dom";
                  <div className="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                    <li className="nav-item">
-                     <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
+                     <NavLink className="nav-link active" aria-current="page" to="/">Inicio</NavLink>
                    </li>
                    <li class="nav-item">
-                     <NavLink className="nav-link" to="/about">About</NavLink>
+                     <NavLink className="nav-link" to="/about">Sobre nosotros</NavLink>
                    </li> 
                    <li className="nav-item">
-                     <NavLink className="nav-link" to="/service">Services</NavLink>
+                     <NavLink className="nav-link" to="/service">Servicios</NavLink>
                    </li>
                    <li className="nav-item">
-                     <NavLink className="nav-link" to="/contact">Contact</NavLink>
+                     <NavLink className="nav-link" to="/contact">Contacto</NavLink>
                    </li>                                  
                   </ul>
                  <NavLink className="navbar-brand fw-bolder fs-4 mx-auto" to="/">Fine Art</NavLink>
@@ -33,14 +33,14 @@ import { NavLink } from "react-router-dom";
                  <NavLink to="/login" className="btn btn-outline-primary ms-auto px-4 rounded-pill">
                     <i className="fa fa-sign-in me-2"></i>Login</NavLink>
                  <NavLink to="/register" className="btn btn-outline-primary ms-2 px-4 rounded-pill">
-                    <i className="fa fa-user-plus me-2"></i>Register</NavLink>
+                    <i className="fa fa-user-plus me-2"></i>Registro</NavLink>
                     
                      
                      
                     <NavLink to="/dashboard" className="btn btn-outline-primary ms-2 px-4 rounded-pill">
                     <i className="fa fa-user-plus me-2"></i>Dashboard</NavLink>
                     <NavLink to="/logout" className="btn btn-outline-primary ms-2 px-4 rounded-pill">
-                    <i className="fa fa-sign-out me-2"></i>Logout</NavLink>
+                    <i className="fa fa-sign-out me-2"></i>Cerrar sesion</NavLink>
                     
                   
                 </div>
